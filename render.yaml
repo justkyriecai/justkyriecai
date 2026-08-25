@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: kyriecai-me
+    runtime: node
+    plan: free
+    region: singapore
+    autoDeploy: true
+    healthCheckPath: /
+    buildCommand: npm ci && npm run build
+    startCommand: npm start
