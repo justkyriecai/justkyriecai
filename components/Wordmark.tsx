@@ -10,7 +10,7 @@ export default function Wordmark({ text }: { text: string }) {
     <div className="flex flex-col items-center">
       <h1
         aria-label={text}
-        className="kc-wordmark text-[clamp(3.25rem,15vw,7.25rem)] leading-[0.95] font-normal tracking-[-0.02em]"
+        className="kc-wordmark text-[clamp(3.75rem,17vw,8.5rem)] leading-[1.02] font-normal tracking-[-0.012em]"
       >
         {letters.map((ch, i) => (
           <span

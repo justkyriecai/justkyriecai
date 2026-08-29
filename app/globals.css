@@ -229,7 +229,8 @@ body {
    `background-clip: text` can never reach those glyphs. The character comes
    from the serif face and the cascade instead. */
 .kc-wordmark {
-  font-family: var(--font-serif);
+  font-family: var(--font-display), var(--font-serif);
+  font-style: italic;
   color: var(--fg);
 }
 
