@@ -1,7 +1,7 @@
 import { FaStar } from "react-icons/fa6";
 
 import ScrollPane from "@/components/ScrollPane";
-import { BUILDING, OPEN_SOURCE, type Project } from "@/lib/projects";
+import { ACTIVITY, BUILDING, OPEN_SOURCE, type Project } from "@/lib/projects";
 
 function Row({ p, delay }: { p: Project; delay: number }) {
   return (
@@ -58,11 +58,20 @@ export default function Build() {
         </ul>
 
         <h2 className="mt-10 mb-1 text-[11px] font-medium tracking-[0.08em] text-[var(--fg-3)] uppercase">
+          Activity
+        </h2>
+        <ul>
+          {ACTIVITY.map((p, i) => (
+            <Row key={p.name} p={p} delay={100 + i * 60} />
+          ))}
+        </ul>
+
+        <h2 className="mt-10 mb-1 text-[11px] font-medium tracking-[0.08em] text-[var(--fg-3)] uppercase">
           Open source
         </h2>
         <ul>
           {OPEN_SOURCE.map((p, i) => (
-            <Row key={p.name} p={p} delay={120 + i * 60} />
+            <Row key={p.name} p={p} delay={180 + i * 60} />
           ))}
         </ul>
       </div>

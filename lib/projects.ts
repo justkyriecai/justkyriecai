@@ -18,6 +18,17 @@ export const BUILDING: Project[] = [
   },
 ];
 
+/** Things I put on, rather than things I shipped. */
+export const ACTIVITY: Project[] = [
+  {
+    name: "Launchpad",
+    blurb:
+      "Three days to do three months of go-to-market — what a hackathon starts, this finishes. S1 in Shanghai with DeepTech, 100 seats; Hangzhou next, then Silicon Valley.",
+    href: "https://mp.weixin.qq.com/s/sqLDwIx5NUw2SCJRNlzA2w",
+    label: "MAL.LAB",
+  },
+];
+
 /** Everything public on github.com/justkyriecai. */
 export const OPEN_SOURCE: Project[] = [
   {
@@ -56,7 +67,7 @@ export const OPEN_SOURCE: Project[] = [
   },
   {
     name: "kyriecai.me",
-    blurb: "This site. Four rooms and a year-long scoreboard.",
+    blurb: "This site. Five rooms and a year-long scoreboard.",
     href: "https://github.com/justkyriecai/justkyriecai",
     label: "justkyriecai",
     stars: 0,

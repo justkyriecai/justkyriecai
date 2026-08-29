@@ -253,3 +253,20 @@ body {
     animation: none;
   }
 }
+
+/* ── the tilted portrait ───────────────────────────────────────────────── */
+/* Overrides for the vendored TiltedCard, kept out of its own file so the
+   registry copy stays pristine: the card is a circle here, and it carries a
+   hairline and a soft drop so it reads as a physical object leaning. */
+.kc-avatar .tilted-card-img {
+  border-radius: 9999px;
+  box-shadow:
+    0 0 0 1px var(--hair),
+    0 10px 30px rgba(0, 0, 0, 0.12);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .kc-avatar .tilted-card-inner {
+    transform: none !important;
+  }
+}

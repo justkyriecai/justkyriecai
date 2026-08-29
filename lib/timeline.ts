@@ -51,6 +51,11 @@ export const YEARS: Year[] = [
         href: "https://github.com/justkyriecai/can-rent-lah",
       },
       { key: "Hash.YS", note: "founded SYSU's blockchain association" },
+      {
+        key: "Launchpad",
+        note: "founded the series · S1 in Shanghai, 100 seats",
+        href: "https://mp.weixin.qq.com/s/sqLDwIx5NUw2SCJRNlzA2w",
+      },
     ],
   },
   {
