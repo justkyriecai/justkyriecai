@@ -22,7 +22,7 @@ export default function Home() {
         className="kc-rise text-[11px] font-medium tracking-[0.16em] text-[var(--fg-3)] uppercase"
         style={{ animationDelay: "160ms" }}
       >
-        {SITE.place} · {SITE.org}
+        {SITE.place}
       </p>
 
       <Wordmark text={SITE.name} />
