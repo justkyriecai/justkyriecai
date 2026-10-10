@@ -1,6 +1,6 @@
 # Kyrie Cai
 
-Inference optimization, agent infra. Full stack software engineering.
+Inference optimization, agent infra. Full-Stack Engineer / Performance Enthusiast.
 
 Former researcher @ HCP Lab (SYSU) · InPlus Lab (SYSU). Now at NUS LV Lab.
 
